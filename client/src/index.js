@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Login from './pages/login';
 // import Landing from './pages/landing';
-import SignUp from './pages/signup';
+// import SignUp from './pages/signup';
 import reportWebVitals from './reportWebVitals';
 
 import './style.css'
@@ -9,7 +10,8 @@ import './style.css'
 ReactDOM.render(
   <React.StrictMode>
     {/* <Landing /> */}
-    <SignUp />
+    {/* <SignUp /> */}
+    <Login />
   </React.StrictMode>,
   document.getElementById('root')
 );

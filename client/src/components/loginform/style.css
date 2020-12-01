@@ -1,0 +1,131 @@
+.logo-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signup-login-container {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.signup-login-title {
+    color: #fefefe;
+}
+
+.callout .button {
+    background-color: rgb(75, 163, 75);
+}
+
+.floated-label-wrapper {
+    position: relative;
+}
+
+.callout {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    background-color: #92B7FE;
+}
+
+.floated-label-wrapper label {
+    background: transparent;
+    color: #fefefe;
+    font-size: 0.75rem;
+    font-weight: 600;
+    left: 0.75rem;
+    opacity: 0;
+    padding: 0 0.25rem;
+    position: absolute;
+    top: 2rem;
+    transition: all 0.15s ease-in;
+    z-index: -1;
+}
+
+.floated-label-wrapper label input[type=text],
+.floated-label-wrapper label input[type=email],
+.floated-label-wrapper label input[type=password] {
+    border-radius: 4px;
+    font-size: 1.75em;
+    padding: 0.5em;
+}
+
+.floated-label-wrapper label.show {
+    opacity: 1;
+    top: -1.2rem;
+    z-index: 1;
+    transition: all 0.15s ease-in;
+}
+
+.button-rounded-hover {
+    border: 0;
+    border-radius: 5000px;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    transition: all 0.35s ease;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+}
+
+.button-rounded-hover:before {
+    opacity: 0;
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    border-radius: inherit;
+    background-color: #fefefe;
+    transition: all 0.3s;
+    -webkit-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+            transform: translateX(-100%);
+}
+
+.button-rounded-hover:after {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    /* border: 5px solid rgb(75, 163, 75); */
+    content: '';
+    border-radius: inherit;
+}
+
+.button-rounded-hover:hover,
+.button-rounded-hover:focus {
+    background-color: rgb(75, 163, 75);
+}
+
+.button-rounded-hover:hover:before,
+.button-rounded-hover:focus:before {
+    -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+            transform: translateX(0%);
+    opacity: 0.25;
+}
+
+/* signup specific css */
+.login-link {
+    margin-bottom: 16px;
+    color: whitesmoke;
+    float: left;
+}
+
+.login-link:hover {
+    color: whitesmoke;
+    font-style: italic;
+    text-decoration: underline;
+}
