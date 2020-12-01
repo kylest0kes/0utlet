@@ -1,9 +1,8 @@
 import express from 'express';
+import { getPosts } from '../Controllers/posts-controller.js';
 
 const router = express.Router();
 
-router.get('/', (req, res) => {
-    res.send('worked');
-})
+router.get('/', getPosts)
 
 export default router;
