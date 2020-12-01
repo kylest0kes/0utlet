@@ -1,3 +1,3 @@
 export const getPosts = (req, res) => {
-    res.send('worked');
+    res.send('it worked');
 }
