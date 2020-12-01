@@ -9,6 +9,13 @@ export default function Posts() {
             <NavBar />
             <PostModal />
             <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
         </div>
     )
 }

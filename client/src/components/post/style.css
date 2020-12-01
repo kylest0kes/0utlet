@@ -1,0 +1,54 @@
+
+.wide-article-link {
+  background-color: #fefefe;
+  padding: 1rem 1rem 0.5rem;
+  border: 1px solid #cacaca;
+  margin-bottom: 2rem;
+  width: 65%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wide-article-link .article-elipsis .read-more {
+  font-weight: bold;
+}
+
+.wide-article-link .article-title,
+.wide-article-link .article-author,
+.wide-article-link .article-elipsis {
+  margin-bottom: 0.25rem;
+}
+
+.article-elipsis {
+    font-size: 25px;
+}
+
+.article-author {
+    font-size: 20px;
+}
+
+.likes-area {
+    margin-top: 15px;
+}
+
+button:hover{
+    cursor: grab;
+}
+
+button {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.dislikes {
+   margin-left: 5px;
+}
+
+.likes-tally {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 25px;
+}
+
+
