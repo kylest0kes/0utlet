@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Landing from './pages/landing/landing.js';
+// import Landing from './pages/landing';
+import SignUp from './pages/signup';
 import reportWebVitals from './reportWebVitals';
 
 import './style.css'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Landing />
+    {/* <Landing /> */}
+    <SignUp />
   </React.StrictMode>,
   document.getElementById('root')
 );
