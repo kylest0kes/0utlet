@@ -1,0 +1,69 @@
+.landing-hero {
+    position: relative;
+    height: 75vh;
+}
+
+.landing-hero-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    height: 400px;
+    width: 400px;
+}
+
+.landing-hero-section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    width: 75%;
+}
+
+.input-group {
+    width: 80%;
+    margin-bottom: 0;
+}
+
+.input-area {
+    border: 1px solid gray;
+    border-radius: 25px;
+    height: 47px;
+    width: 70%;
+}
+
+.input-button-area {
+    margin-left: 15px;
+}
+
+.button {
+    background-color: gray;
+    margin-left: 20px;
+}
+
+.subheader {
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+.sub-links {
+    width: 25%;
+}
+
+.login-link {
+    color: whitesmoke;
+}
+
+.login-link:hover {
+    color: whitesmoke;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.login-link:visited {
+    color: whitesmoke;
+}

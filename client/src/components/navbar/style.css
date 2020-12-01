@@ -1,0 +1,44 @@
+.topbar-sticky-shrink {
+    padding: .5rem;
+    transition: padding 0.25s ease;
+    background: #92B7FE;
+}
+
+.topbar-sticky-shrink .menu {
+    background: #92B7FE;
+}
+
+.is-stuck .topbar-sticky-shrink {
+    padding: 1rem;
+    transition: padding 0.25s ease;
+}
+
+[data-sticky] {
+    width: 100%;
+}
+
+.topbar-sticky-shrink-header {
+    padding: 10rem 0;
+    background: url("https://placehold.it/2000x500&text=this is a header") center center no-repeat;
+    background-size: cover;
+}
+
+.nav-logo  {
+    margin: 0;
+    margin-left: 10px;
+    color: whitesmoke;
+}
+
+.nav-links {
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.nav-links:hover {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.nav-links:visited {
+    color: whitesmoke;
+}

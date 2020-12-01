@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Landing from './Pages/Landing';
+import Landing from './pages/landing/landing.js';
 import reportWebVitals from './reportWebVitals';
+
+import './style.css'
 
 ReactDOM.render(
   <React.StrictMode>
