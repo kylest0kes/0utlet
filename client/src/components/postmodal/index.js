@@ -7,16 +7,20 @@ export default function PostModal(props) {
         display: props.displayModal ? 'block' : 'none'
     }
 
+    let postModal = (
+        <div className="post-modal">
+            <div className="post-modal-content" onClick={ e => e.stopPropagation() } style={modalStyle}>
+                <span className="close" onClick={ closeModal }>&times;</span>
+            </div>
+        </div>
+    )
+
     function closeModal(e) {
         e.stopPropagation()
         props.closeModal()
      }
 
     return (
-        <div className="post-modal">
-            <div className="post-modal-content" onClick={ e => e.stopPropagation() } style={modalStyle}>
-                <span className="close" onClick={ closeModal }>&times;</span>
-            </div>
-        </div>
+        props.displayModal ? postModal : null 
     )
 }
