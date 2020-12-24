@@ -18,14 +18,8 @@ export default function App() {
                     <div className="newsletter-subscribe-inner">
                         <p className="subheader">See what people near you are saying...</p>
                     </div>
-                    <form action="">
-                        <div className="input-group">
-                            <input className="input-area" type="text" placeholder="Enter your postal code..." />
-                            <div className="input-button-area">
-                                <button className="button button-rounded-hover expanded" type="submit" value="sign up">Search</button>
-                            </div>
-                        </div>
-                    </form>
+                    <button class="button button-rounded-hover">View Posts</button>
+                    <br />
                     <div className="grid-x sub-links">
                         <div className="cell small-6">
                             <a className="login-link" href="#">sign up</a>
