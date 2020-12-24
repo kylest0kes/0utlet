@@ -1,5 +1,5 @@
 import React from 'react';
-// import logo from '../../images/logo.png';
+import PostModalForm from '../postmodalform';
 import './style.css'
 
 export default function PostModal(props) {
@@ -11,6 +11,8 @@ export default function PostModal(props) {
         <div className="post-modal" onClick={ closeModal } style={modalStyle}>
             <div className="post-modal-content" onClick={ e => e.stopPropagation() }>
                 <span className="close" onClick={ closeModal }>&times;</span>
+                <br/>
+                <PostModalForm />
             </div>
         </div>
     )
