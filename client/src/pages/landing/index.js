@@ -17,9 +17,9 @@ export default function App() {
             <div className="landing-hero-section">
                 <section className="newsletter-subscribe">
                     <div className="newsletter-subscribe-inner">
-                        <p className="subheader">See what people near you are saying...</p>
+                        <p className="subheader">See what people are saying...</p>
                     </div>
-                    <button class="button button-rounded-hover">View Posts</button>
+                    <Link to="/posts"><button class="button button-rounded-hover">View Posts</button></Link>
                     <br />
                     <div className="grid-x sub-links">
                         <div className="cell small-6">

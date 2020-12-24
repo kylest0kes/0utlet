@@ -14,6 +14,10 @@
     transform: translateX(-50%) translateY(-50%);
 }
 
+.sign-up {
+    margin-bottom: 0;
+}
+
 .signup-login-title {
     color: #fefefe;
 }
@@ -119,9 +123,9 @@
 
 /* signup specific css */
 .login-link {
-    margin-bottom: 16px;
+    
     color: whitesmoke;
-    float: left;
+
 }
 
 .login-link:hover {

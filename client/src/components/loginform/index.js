@@ -18,7 +18,7 @@ export default function LoginForm() {
                     <label for="pass">password</label>
                     <input type="password" id="pass" name="password input" placeholder="password" />
                 </div>
-                    <Link to="/signup" className="login-link">need an account?</Link>
+                <Link to="/signup" className="login-link">need an account?</Link>
                 <button className="button button-rounded-hover expanded" type="submit" value="sign up">log in</button>
             </form>
         </div>
