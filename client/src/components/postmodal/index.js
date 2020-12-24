@@ -8,8 +8,8 @@ export default function PostModal(props) {
     }
 
     let postModal = (
-        <div className="post-modal">
-            <div className="post-modal-content" onClick={ e => e.stopPropagation() } style={modalStyle}>
+        <div className="post-modal" onClick={ closeModal } style={modalStyle}>
+            <div className="post-modal-content" onClick={ e => e.stopPropagation() }>
                 <span className="close" onClick={ closeModal }>&times;</span>
             </div>
         </div>
