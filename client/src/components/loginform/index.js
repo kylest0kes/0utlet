@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../images/logo.png';
 
 import './style.css';
@@ -17,7 +18,7 @@ export default function LoginForm() {
                     <label for="pass">password</label>
                     <input type="password" id="pass" name="password input" placeholder="password" />
                 </div>
-                <a className="login-link" href="#">need an account?</a>
+                    <Link to="/signup" className="login-link">need an account?</Link>
                 <button className="button button-rounded-hover expanded" type="submit" value="sign up">log in</button>
             </form>
         </div>

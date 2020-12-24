@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../images/logo.png';
 
 import './style.css';
@@ -26,7 +27,7 @@ export default function SignUpForm() {
                 <label for="pass">password again</label>
                 <input type="password" id="pass-2" name="password-2 input" placeholder="password again" />
             </div>
-            <a className="login-link" href="#">already a member?</a>
+            <Link to="/login" className="login-link">already have an account?</Link>
             <button className="button button-rounded-hover expanded" type="submit" value="sign up">sign up</button>
         </form>
     </div>

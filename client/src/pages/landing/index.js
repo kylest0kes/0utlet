@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import NavBar from '../../components/navbar';
 import logo from '../../images/logo.png';
 
@@ -22,10 +23,10 @@ export default function App() {
                     <br />
                     <div className="grid-x sub-links">
                         <div className="cell small-6">
-                            <a className="login-link" href="#">sign up</a>
+                            <Link to="/signup" className="login-link">sign up</Link>
                         </div>
                         <div className="cell small-6">
-                            <a className="login-link" href="#">log in</a>   
+                            <Link to="/login" className="login-link">log in</Link>   
                         </div>
                     </div>
                 </section>
